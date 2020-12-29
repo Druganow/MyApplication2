@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_age_grooup"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick_ag"
+        android:text="Возрастные группы" />
+
+    <Button
+        android:id="@+id/button_sportsmens"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick_sp"
+        android:text="Список участников" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Интервал, сек" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonUpDate"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="UpDate"
+        android:text="Обновить" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:backgroundTint="#00BCD4"
+        android:onClick="reset"
+        android:text="Сброс" />
+</LinearLayout>

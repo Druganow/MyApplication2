@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick"
+        android:text="Настройка" />
+
+    <Button
+        android:id="@+id/button_referee_prot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick_RP"
+        android:text="Стартовые протоколы" />
+
+    <Button
+        android:id="@+id/button_start_prot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick_SP"
+        android:text="Судейские протоколы" />
+
+    <Button
+        android:id="@+id/button_finish_prot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="onClick_FP"
+        android:text="Финишные протоколы" />
+</LinearLayout>

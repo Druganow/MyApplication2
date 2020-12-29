@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="gender_unknown">Неизвестно</string>
+    <string name="gender_male">Мужчина</string>
+    <string name="gender_female">Женщина</string>
+
+    <string-array name="array_gender_options">
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_unknown</item>
+    </string-array>
+    <string name="tab">\u0009\u0009\u0009\u0009  </string>
+</resources>
